@@ -1,0 +1,33 @@
+<meta charset="utf-8">
+
+<h1>PROGRAMA LICENCIA</h1>
+
+<script>
+	
+function saltarLinea() {
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	
+	
+}
+
+function imprimir(frase){
+
+	document.write(frase);
+	saltarLinea();
+}
+
+var edad = parseInt(prompt("¿Cual es tu edad ?"));
+var licencia = prompt("¿Tienes licencia? Responde si o no");
+
+if (edad >= 17 && licencia == "si") {
+	imprimir("Puedes conducir");
+
+} else {
+	imprimir("No puedes conducir");
+
+}
+
+
+</script>
